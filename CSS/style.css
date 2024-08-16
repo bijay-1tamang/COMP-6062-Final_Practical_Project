@@ -1,0 +1,19 @@
+/* css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+  }
+  
+  .input-group {
+    margin-top: 1rem;
+  }
+  
+  @media (max-width: 767px) {
+    .card {
+      margin-bottom: 2rem;
+    }
+  }
