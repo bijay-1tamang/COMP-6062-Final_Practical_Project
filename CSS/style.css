@@ -1,19 +1,25 @@
-/* css/style.css */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+/* Custom styles for the navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  .card {
-    margin-bottom: 1rem;
+  .navbar-brand {
+    font-weight: bold;
   }
   
-  .input-group {
-    margin-top: 1rem;
+  .nav-link {
+    font-weight: 500;
   }
   
+  /* Custom styles for the container */
+  .container {
+    max-width: 800px;
+  }
+  
+  /* Responsive styles */
   @media (max-width: 767px) {
-    .card {
-      margin-bottom: 2rem;
+    .container {
+      max-width: 100%;
+      padding: 0 20px;
     }
   }
