@@ -31,7 +31,7 @@ new Vue({
       },
       async getWeather() {
         const city = this.newCity || this.city;
-        const response = await fetch(`https://goweather.herokuapp.com/weather/${encodeURIComponent(city)}`);
+        const response = await fetch(`https://goweather.herokuapp.com/weather/London%20Ontario`);
         const data = await response.json();
         this.weather.temperature = data.temperature;
         this.weather.wind = data.wind;
@@ -40,7 +40,7 @@ new Vue({
         this.newCity = '';
       },
       async getDefinition(word) {
-        const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
+        const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/Bottle`);
         const data = await response.json();
         const definition = data[0].meanings[0].definitions[0];
         this.word.word = data[0].word;
