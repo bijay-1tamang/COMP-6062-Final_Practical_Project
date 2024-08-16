@@ -1,25 +1,44 @@
-/* Custom styles for the navbar */
-.navbar {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .navbar-brand {
-    font-weight: bold;
-  }
-  
-  .nav-link {
-    font-weight: 500;
-  }
-  
-  /* Custom styles for the container */
-  .container {
-    max-width: 800px;
-  }
-  
-  /* Responsive styles */
-  @media (max-width: 767px) {
-    .container {
-      max-width: 100%;
-      padding: 0 20px;
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+h1 {
+    color: #007bff;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+/* Button Styles */
+button {
+    margin-top: 10px;
+}
+
+/* Module Styles */
+section {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
     }
-  }
+
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+}
